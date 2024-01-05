@@ -92,12 +92,12 @@ const Header = () => {
         >
           <ul ref={MoblieSidenav} className="sidenav" id="mobile-demo">
             <h1>
-              <Link onClick={handleMenuSwitch} to={"/"}>
+              <Link onClick={handleMenuSwitch} to={"/config"}>
                 Home
               </Link>
             </h1>
             <h1>
-              <Link onClick={handleMenuSwitch} to={"/blog"}>
+              <Link onClick={handleMenuSwitch} to={"/config/blog"}>
                 Blogs
               </Link>
             </h1>
